@@ -5,12 +5,12 @@ function vowelCount(name) {
   name
     .toLowerCase()
     .split('')
-    .map((r) => {
-      r === 'a' && count++
-      r === 'e' && count++
-      r === 'i' && count++
-      r === 'o' && count++
-      r === 'u' && count++
+    .map((l) => {
+      l === 'a' && count++
+      l === 'e' && count++
+      l === 'i' && count++
+      l === 'o' && count++
+      l === 'u' && count++
     })
 
   return count
